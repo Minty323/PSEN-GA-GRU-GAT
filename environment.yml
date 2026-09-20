@@ -1,0 +1,15 @@
+name: dual-branch-rumor
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.24
+  - pandas>=1.5
+  - pip:
+      # CUDA 12.8 wheel is needed for newer NVIDIA cards such as RTX 50-series.
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch>=2.7

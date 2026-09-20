@@ -1,0 +1,29 @@
+# Data, checkpoints, experiment outputs, and local caches
+/artifacts/
+/outputs/
+/tmp/
+/.claude/
+/.pytest_cache/
+**/__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.xlsx
+*.xls
+*.csv
+*.log
+*.zip
+*.7z
+*.rar
+
+# Local environments and editor files
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
